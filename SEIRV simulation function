@@ -13,8 +13,8 @@ def simfxn(Time,popul):
     g.vs["state"] = "S"
     g.vs["duration"] = 0
   
-    perc_vac = int(40*pop) #randomly select % of the population to be vaccinated
-    vac_eff = 40  # vaccine efficacy
+    perc_vac = int(40*pop) # randomly select % of the population to be vaccinated. This is 0 for no vaccination scenario 
+    vac_eff = 40  # vaccine efficacy  # This is 0 for no vaccination scenario 
     init_vac_grp = random.sample(list(range(pop)), perc_vac)  # initial vaccinated nodes prior to infection
     g.vs[init_vac_grp]["state"] = "V"
 
