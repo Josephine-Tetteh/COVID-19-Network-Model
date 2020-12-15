@@ -16,6 +16,10 @@ With more than 60 million confirmed cases and more than 1.5 million deaths, SARS
 
   ![text](https://github.com/Josephine-Tetteh/COVID-19-Network-Model/blob/main/ERNetwork.png)
 
+# Source code
+
+The 'sirv'file
+
 # Contacts
 
 vargas@fias.uni-frankfurt.de
