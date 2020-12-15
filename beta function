@@ -1,0 +1,13 @@
+# double logistic function to calculate beta(t)
+def double_smoothlog(time, bound1 , bound2, rate1 , rate2 , midpoint1 , midpoint2):
+    result = []
+    mini = 0
+    maxi = time
+    for x in range(time):
+        if (midpoint1 > maxi | midpoint2 > maxi | midpoint1 < mini | midpoint2 < mini | midpoint1 > midpoint2):
+            stop('midpoints not in range!')
+        t1 = 1 / (1 + math.exp(-rate1*(x - midpoint1)))
+        t2 = 1 / (1 + math.exp( rate2*(x - midpoint2)))
+        out = bound1 + (bound2-bound1) * ((t1 + t2) - 1)
+        result.append(out)
+    return(result)
