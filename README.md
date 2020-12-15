@@ -24,9 +24,9 @@ The files `Analysis(mass_vaccination)` and `Analysis(ring_vaccination)` provide 
 
 # Illustration
 
-`Time = 359
+``` Time = 359
 popul = 100
-simout=simfxn(Time,popul) `
+simout=simfxn(Time,popul) ```
 
 # Contacts
 
