@@ -22,6 +22,12 @@ The `Beta_function` file contains the double logistic function used to evaluate 
 
 The files `Analysis(mass_vaccination)` and `Analysis(ring_vaccination)` provide illustrative examples of simulations for mass vaccination and ring vaccination scenarios respectivley. It makes use of data from Italy in `Data_Italy` file.
 
+# Illustration
+
+`Time = 359
+popul = 100
+simout=simfxn(Time,popul) `
+
 # Contacts
 
 vargas@fias.uni-frankfurt.de
