@@ -16,11 +16,11 @@ With more than 60 million confirmed cases and more than 1.5 million deaths, SARS
 
 # Source code
 
-The `SEIRV_simulation_functoin` file provides the framework for the epidemic simulation function on a network.
+<!-- The `SEIRV_simulation_function` file provides the framework for the epidemic simulation function on a network. -->
 
 The `Beta_function` file contains the double logistic function used to evaluate beta(t).
 
-The files `Analysis(mass_vaccination)` and `Analysis(ring_vaccination)` provide illustrative examples of simulations for mass vaccination and ring vaccination scenarios respectivley. It makes use of data from Italy in `Data_Italy` file.
+The files `Mass-vaccination.ipynb` and `Ring-vaccination.ipynb` provide illustrative examples of simulations for mass vaccination and ring vaccination scenarios respectivley. It makes use of data from Italy in `Data_Italy` file.
 
 # Contacts
 
